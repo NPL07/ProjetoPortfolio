@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: var(--body);
+}
+
+:root {
+    --nav: #171321;
+    --body: #FFE742;
+    --links: #D9DBF5;
+    --bordas: #961D6E;
+}
+
+.nav {
+    height: 65px;
+    background: var(--nav);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.faixa {
+    background: var(--bordas);
+    height: 5px;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo h1 {
+    font-family: 'Aclonica', sans-serif;
+    color: var(--links);
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menu {
+    margin-right: 200px;
+
+}
+
+.menu ul {
+    list-style: none;
+
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 25px;
+
+}
+
+.menu ul li a {
+    font-family: 'Aclonica', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--links);
+    font-weight: normal;
+
+}
+
+.menu ul li a:hover {
+    border-bottom: 3px solid var(--links);
+    transition: 0.7ms;
+
+}
+
+.main {
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none;
+    /* border: 2px solid blue; */
+    height: 348px;
+    width: 548px;
+    text-align: center;
+    /* margin: 0 auto; */
+    /* font-size: 50px; */
+}
+
+#name {
+    font-family: 'Aclonica', sans-serif;
+    font-size: 107px;
+    font-weight: bolder;
+    margin: 0 auto;
+    width: 100%;
+    height: 90px;
+    color: var(--nav);
+    /* border: 1px solid green; */
+    /* z-index: 2; */
+    margin-bottom: 15px;
+}
+
+#last-name {
+    font-family: 'Aclonica', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bolder;
+    margin-top: 5px;
+    padding: 17px 0px;
+    /* margin: 0 auto; */
+    width: 450px;
+    height: 110px;
+    color: var(--links);
+    background: var(--nav);
+    /* background-size: cover; */
+    /* z-index: 1; */
+}
+
+#idea {
+    color: var(--nav);
+    font-family: 'Aclonica', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15px;
+    /* margin: 0 auto; */
+    width: 100%;
+    height: 100px;
+    /* color: white; */
+    /* background: black; */
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--nav);
+    height: 50px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+.div2>h2 {
+    color: var(--links);
+    font-size: 30px;
+
+}

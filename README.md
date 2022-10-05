@@ -1,2 +1,3 @@
 # ProjetoPortfolio
- Portfolio simples modificado em construção
+ Portfolio clone simples modificado, ainda não responsivo.
+ Em andamento.
